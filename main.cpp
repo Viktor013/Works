@@ -1,0 +1,10 @@
+#include "cl_application.h"
+#include "cl_application.cpp"
+
+int main()
+{
+ cl_application ob_cl_application(nullptr);
+ ob_cl_application.build_tree_objects();
+ return ob_cl_application.exec_app();
+}
+
